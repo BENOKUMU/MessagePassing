@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&family=Updock&display=swap');
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	background-color: #0a0a0a;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	font-family: "Poppins", sans-serif;
+}
+
+.container {
+	background-color: rgb(29, 3, 58);
+	padding: 5rem;
+	border-radius: 1rem;
+	height: 100vh;
+    margin: 3rem;
+}
+
+.container:hover{
+    background-color: antiquewhite;
+}
+
+.input-sec {
+	margin-top: 2em;
+	margin-bottom: 3em;
+	display: flex;
+	justify-content: space-between;
+}
+
+input {
+	padding: 1em;
+	flex: 1;
+}
+
+button {
+	margin-left: 1em;
+	background-color: #eb2f06;
+	color: white;
+	padding: 1em 2em;
+	border: none;
+	border-radius: 2em;
+	cursor: pointer;
+}
+
+button:focus {
+	outline: none;
+}
+
+h2 {
+	text-align: center;
+	margin-bottom: 0.5em;
+	text-decoration: underline;
+}
